@@ -1318,11 +1318,11 @@ blockquote::before {
     }
 
     .circle img {
-        width: 46%;
+        width: 46.5%;
         border-radius: 100%;
         position: relative;
         top: -261px;
-        left: 130px;
+        left: 129px;
         height: 174px;
     }
 
