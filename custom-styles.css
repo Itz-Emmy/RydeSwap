@@ -157,3 +157,7 @@ html {
     position: relative;
     right: 35px;
 }
+
+.col-xl-6.col-lg-6.col-md-12.ryde-services {
+    margin-top: 40%;
+}
