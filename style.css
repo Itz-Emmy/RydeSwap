@@ -1453,7 +1453,7 @@ button.cale-btn:hover{
     position: relative;
 }
 .breadcrumb {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     padding: 0;
     margin-bottom: 0;
