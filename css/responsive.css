@@ -1322,7 +1322,7 @@ blockquote::before {
         border-radius: 100%;
         position: relative;
         top: -261px;
-        left: 123px;
+        left: 130px;
         height: 174px;
     }
 
@@ -1333,7 +1333,7 @@ blockquote::before {
         display: block;
         box-sizing: border-box;
         height: 400px !important;
-        width: 600px !important;
+        width: 620px !important;
         padding: 0 120px;
         margin-left: -100px;
     }
