@@ -27,6 +27,16 @@
     max-width: 1260px;
     }  
     
+    .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: none;
+        background-color: #fff;
+        position: relative;
+        top: -310px;
+        left: 36%;
+    }
     
     
     
@@ -38,13 +48,42 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1290px) {
 
-
+    .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: none;
+        background-color: #fff;
+        position: relative;
+        top: -300px;
+        left: 36%;
+    }
 
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .footer-menu ul {
+        
+        margin-left: 0;
+        margin-top: -30px;
+    }
+
+    /* .row.d-flex.flex-wrap.align-items-center {
+        margin-left: -8%;
+    } */
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: none;
+        background-color: #fff;
+        position: relative;
+        top: -215px;
+        left: 40%;
+    }
 
 .header_menu ul li {
     margin-left: 15px;
@@ -277,7 +316,26 @@
 
 /* Tablet desktop :768px. */
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 990px) {
+    .row.d-flex.flex-wrap.align-items-center {
+        margin-left: -12%;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: none;
+        background-color: #fff;
+        position: relative;
+        top: -160px;
+        left: 45%;
+    }
+    canvas#myChart {
+        margin-left: -10%;
+        height: 450px !important;
+        width: 450px !important;
+    }
    
     .logo a img {
         width: 150px;
@@ -549,6 +607,7 @@
 }
 .intro-area-2 .intro-content {
     margin-top: -130px;
+    padding-left: 80px;
 }    
 .single-brand-item {
     width: 140px;
@@ -629,7 +688,27 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
-    
+
+    .circle {
+        width: 50px;
+        height: 100%;
+        border-radius: 100%;
+        border: none;
+        background-color: #fff;
+        position: relative;
+        top: -100px;
+        left: 125px;
+    }
+    canvas#myChart {
+        display: block;
+        box-sizing: border-box;
+        height: 300px !important;
+        width: 300px !important; 
+    } 
+    .footer-menu ul {
+        margin-left: 0;
+        margin-top: 0;
+    }
     .logo a img {
         width: 150px;
     }
@@ -717,7 +796,7 @@
     line-height: 46px;
     width: auto;
 }
-.left-headline h2, {
+.left-headline h2 {
     font-size: 28px;
     line-height: 40px;
 }
@@ -773,7 +852,7 @@
 .footer-content {
     display: block;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-right: 25px;
 }   
 .subscribe-inner {
     padding: 80px 20px;
@@ -812,7 +891,8 @@
 }    
 .footer-menu ul li a {
     padding: 0px 7px;
-}    
+}   
+ 
 .mar-0 {
     margin-bottom: 30px;
 }              
@@ -1129,16 +1209,23 @@ blockquote::before {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {
-    .circle {
-        width: 100px;
-        height: 100px;
-        border-radius: 100%;
-        border: none;
-        background-color: #fff;
-        position: relative;
-        top: -210px;
-        left: 38%;
+    /* .circle {
+        
+        top: -100px !important;
+        left: 125px;
+    } */
+    canvas#myChart {
+        display: block;
+        box-sizing: border-box;
+        height: 300px !important;
+        width: 300px !important; 
+    } 
+
+    .footer-menu ul {
+        margin-left: 0;
+        margin-top: 0;
     }
+    
     .logo a img {
         width: 150px;
     }
@@ -1163,6 +1250,10 @@ blockquote::before {
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .footer-menu ul {
+        margin-left: 0;
+        margin-top: 0;
+    }
     .circle {
         width: 100px;
         height: 100px;
@@ -1172,6 +1263,10 @@ blockquote::before {
         position: relative;
         top: -210px;
         left: 38%;
+    }
+    canvas#myChart {
+        height: 450px !important;
+        width: 450px !important;
     }
     .logo a img {
         width: 150px;

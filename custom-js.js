@@ -1,3 +1,32 @@
+// Menu close 
+
+$(document).ready(function() {
+    var windows = $(window);
+    var sticky = $('#sticker');
+  
+    windows.on('scroll', function() {
+      var scroll = windows.scrollTop();
+      if (scroll < 300) {
+        sticky.removeClass('stick');
+      } else {
+        sticky.addClass('stick');
+      }
+    });
+  
+    $('.header_menu.f-right nav#mobile-menu ul.main-menu li').click(function() {
+      var scroll = windows.scrollTop();
+      if (scroll >= 300) {
+        sticky.removeClass('stick');
+      }
+    });
+  });
+  
+  
+
+
+
+
+// 
 
 var ctx = document.getElementById('myChart').getContext('2d');
 

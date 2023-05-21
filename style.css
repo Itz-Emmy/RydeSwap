@@ -898,6 +898,7 @@ button.cale-btn:hover{
 }
 .about-content {
     display: block;
+    margin: 100px 0;
 }
 .about-icon {
     float: left;
