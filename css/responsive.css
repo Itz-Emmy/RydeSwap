@@ -34,11 +34,11 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1290px) {
     .circle img {
-        width: 40%;
+        width: 20%;
         border-radius: 100%;
         position: relative;
-        top: -329px;
-        left: 163px;
+        top: -275px;
+        left: 220px;
     }
     
 }
@@ -60,11 +60,11 @@
         width: 550px !important;
     }
     .circle img {
-        width: 55%;
+        width: 20%;
         border-radius: 100%;
         position: relative;
-        top: -292px;
-        left: 143px;
+        top: -230px;
+        left: 200px;
     }
 
     #faq .section-headline h2 {
@@ -329,11 +329,11 @@
     }
 
     .circle img {
-        width: 41%;
+        /* width: 41%; */
         border-radius: 100%;
         position: relative;
-        top: -196px;
-        left: 128px;
+        top: -160px;
+        left: 160px;
     }
    
     canvas#myChart {
@@ -694,11 +694,11 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
     .circle img {
-        width: 45%;
+        /* width: 45%; */
         border-radius: 100%;
         position: relative;
-        top: -391px;
-        left: 171px;
+        top: -320px;
+        left: 240px;
     }
 
     canvas#myChart {
@@ -1231,11 +1231,11 @@ blockquote::before {
         width: 150px;
     }
     .circle img {
-        width: 46%;
+        /* width: 46%; */
         border-radius: 100%;
         position: relative;
-        top: -263px;
-        left: 139px;
+        top: -210px;
+        left: 185px;
     }
 
 }
@@ -1316,12 +1316,12 @@ blockquote::before {
     }
 
     .circle img {
-        width: 46.5%;
+        width: 20%;
         border-radius: 100%;
         position: relative;
-        top: -261px;
-        left: 129px;
-        height: 174px;
+        top: -200px;
+        left: 170px;
+        height: 20%;
     }
 
     .row.d-flex.flex-wrap.align-items-center.token-info {
