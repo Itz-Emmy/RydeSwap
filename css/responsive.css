@@ -611,7 +611,7 @@
     object-fit: cover;
 }
 .intro-area-2 .intro-content {
-    margin-top: -130px;
+    /* margin-top: -130px; */
     padding: 60px;
 }   
 .single-brand-item {
@@ -1161,9 +1161,7 @@ blockquote::before {
 .staking-inner::after {
     background-position: left center;
 }    
-.intro-area-2 .intro-content {
-    margin-top: -210px;
-}
+
 .intro-area-2{
     float: none;
     width: 100%;
@@ -1255,7 +1253,7 @@ blockquote::before {
     }
    
     .intro-area-2 .intro-content {
-        margin-top: -130px;
+        /* margin-top: -130px; */
         padding: 30px;
     }
     
