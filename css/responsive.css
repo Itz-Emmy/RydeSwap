@@ -691,7 +691,7 @@
 }
 
 
-/* small mobile :320px. */
+
 @media (max-width: 767px) {
     .circle img {
         /* width: 45%; */
@@ -1368,4 +1368,112 @@ blockquote::before {
     padding-right: 55px;
 }
     
+}
+
+@media (max-width: 320px) {
+    .intro-area-2 .intro-content {
+        padding: 0;
+    }
+
+    .about-content {
+        margin: 0;
+    }
+
+    .about-all {
+        left: -25px;
+    }
+
+    .about-inner {
+        left: 0;
+    }
+    .area-padding {
+        padding: 10px;
+    }
+    .swap-left span {
+        border: 1px solid #FF06B7;
+        background: #FF06B7;
+        color: #fff;
+        padding: 5px;
+    }
+    .calculator-inner .form-input {
+        width: 48%;
+    }
+    .money-send .calculator-inner .nice-select {
+        width: 52%;
+    }
+
+    .area-padding-2 {
+        padding: 0;
+    }
+    .price-box-inner {
+        padding: 50px;
+        left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .price-box-inner.right-info-content {
+        padding: 15px;
+        left: -10px;
+        margin-bottom: 30px;
+    }
+
+    canvas#myChart {
+        position: relative;
+        height: 400px !important;
+        width: 400px !important;
+        left: 10px;
+        padding: 35px;
+    }
+    .circle img {
+        width: 15%;
+        border-radius: 100%;
+        position: relative;
+        top: -180px;
+        left: 185px;
+    }
+    #revenue .support-text-list {
+        font-size: 1rem;
+        line-height: 2.5;
+        padding-left: -40px;
+    }
+
+    #revenue .about-inner {
+        width: 300px;
+    }
+
+    .bread-bg img {
+        position: relative;
+        left: -50px;
+    }
+
+    .price-box-inner.right-info-content {
+        padding: 15px;
+        left: -10px;
+        margin-bottom: 30px;
+    }
+
+    .price-box-inner.about-supply {
+        position: relative;
+        left: -20px;
+        padding: 20px;
+        width: 300px;
+        white-space: pre-wrap;
+    }
+
+
+    .price-box-inner h5::after {
+        position: absolute;
+        content: "";
+        left: 12px;
+        bottom: -5px;
+        width: 90%;
+        height: 1px;
+        background: #FF06B7;
+    }
+
+    .price-box-inner.right-info-content .table td {
+        padding: 10px;
+        /* vertical-align: top; */
+        /* border-top: 1px solid #dee2e6; */
+    }
 }
