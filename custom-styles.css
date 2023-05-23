@@ -159,6 +159,18 @@ html {
     right: 35px;
 }
 
-.col-xl-6.col-lg-6.col-md-12.ryde-services {
-    margin-top: 40%;
+#buy-ryd .about-content {
+    margin: 50px 0;
 }
+
+#buy-ryd .row {
+    display: block;
+    width: 1200px;
+}
+
+#audit .wel-content a {
+    position: relative;
+    font-weight: 500;
+    color: #fff;
+}
+
