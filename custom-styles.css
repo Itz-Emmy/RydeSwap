@@ -174,3 +174,15 @@ html {
     color: #fff;
 }
 
+#audit .row.d-flex.flex-wrap.align-items-center {
+    
+    padding-top: 30%;
+}
+
+#mission-vision .col-xl-6.col-lg-6.col-md-12 {
+    max-width: 100%;
+}
+
+#mission-vision .well-service-text {
+    margin-top: -200px;
+}

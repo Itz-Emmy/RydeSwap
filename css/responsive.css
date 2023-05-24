@@ -334,7 +334,7 @@
     .section-headline.text-center.roadmap-heading {
         margin: auto;
         position: relative;
-        left: -20px;
+        left: -5px;
     }
     .bread-bg-img {
         width: 100px;
@@ -741,8 +741,26 @@
     }
     .header-right {
     display: block;
+    }
+    .header-right {
+        left: 25px;
+    }
+    #buy-ryd-header {
+        width: auto;
+    
+    }
+
+#buy-ryd-header .header-right, .mobile-menu {
+    position: relative;
+    top: -70px;
 }
 
+.header-area.stick .header-right, .header-right {
+    position: relative;
+    margin-left: 120px;
+    right: 0;
+    top: 0;
+}
     canvas#myChart {
         display: block;
         box-sizing: border-box;
@@ -816,9 +834,7 @@
     margin-top: 30px;
     text-align: center;
 }
-.header-right {
-    display: none;
-}  
+ 
 .header-area.stick .logo a {
     padding: 2px 0;
 }
@@ -1458,7 +1474,23 @@ blockquote::before {
     .intro-area-2 .intro-content {
         padding: 0;
     }
+    .header-right {
+        left: 0;
+    }
 
+    .top-btn {
+        font-size: 0.6rem;
+        padding: 8px 11px;
+        text-align: center;
+        position: relative;
+        top: -7px;
+        left: 25px;
+    }
+    #buy-ryd-header .header-right, .mobile-menu {
+        position: relative;
+        top: -60px;
+    }
+   
     .about-content {
         margin: 0;
     }
