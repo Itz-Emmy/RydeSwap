@@ -728,7 +728,12 @@
     
     
 }
-
+@media (max-width: 1024px) {
+    .header-right {
+        left: 25px;
+        display: none;
+    }
+}
 
 
 @media (max-width: 767px) {
@@ -739,28 +744,29 @@
         top: -320px;
         left: 240px;
     }
-    .header-right {
+    /* .header-right {
     display: block;
-    }
+    } */
     .header-right {
         left: 25px;
+        display: none;
     }
     #buy-ryd-header {
         width: auto;
     
     }
 
-#buy-ryd-header .header-right, .mobile-menu {
+/* #buy-ryd-header .header-right, .mobile-menu {
     position: relative;
     top: -70px;
-}
+} */
 
-.header-area.stick .header-right, .header-right {
+/* .header-area.stick .header-right, .header-right {
     position: relative;
     margin-left: 120px;
     right: 0;
     top: 0;
-}
+} */
     canvas#myChart {
         display: block;
         box-sizing: border-box;
@@ -1478,7 +1484,7 @@ blockquote::before {
         left: 0;
     }
 
-    .top-btn {
+    /* .top-btn {
         font-size: 0.6rem;
         padding: 8px 11px;
         text-align: center;
@@ -1489,7 +1495,7 @@ blockquote::before {
     #buy-ryd-header .header-right, .mobile-menu {
         position: relative;
         top: -60px;
-    }
+    } */
    
     .about-content {
         margin: 0;
