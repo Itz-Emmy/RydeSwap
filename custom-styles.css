@@ -186,3 +186,8 @@ html {
 #mission-vision .well-service-text {
     margin-top: -200px;
 }
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}

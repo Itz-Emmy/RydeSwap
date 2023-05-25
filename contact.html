@@ -137,7 +137,12 @@
                     <!-- End contact icon -->
                     <div class="col-xl-6 col-lg-6 col-md-12">
                         <div class="contact-form">
-                           <form id="contactForm" method="POST" action="contact.php" class="contact-form">
+                           <form id="contactForm" method="POST" class="contact-form" netlify-honeypot="bot-field" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact">
+                                <p class="hidden">
+                                    <label>
+                                        Don’t fill this out if you’re human: <input name="bot-field" />
+                                    </label>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
