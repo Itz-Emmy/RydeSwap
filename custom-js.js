@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var myChart = new Chart(ctx, {
       type: "doughnut",
       data: {
-        labels: ["Seed sale", "Presale", "Liquidity (Pancakeswap)", "RydeSwap Liquidity", "Ecosystem & Marketing", "Unlock", "Airdrop", "Partnerships", "Staking", "CEX listings"],
+        labels: ["Private sale", "Presale", "Liquidity (Pancakeswap)", "RydeSwap Liquidity", "Ecosystem & Marketing", "Unlock", "Airdrop", "Partnerships", "Staking", "CEX listings"],
         datasets: [
           {
-            data: [3, 14, 7.2, 7.2, 10, 8.6, 5, 5, 20, 20],
+            data: [4, 14, 7.2, 7.2, 10, 7.6, 5, 5, 20, 20],
             backgroundColor: [
                 '#ff6384', '#36a2eb', '#ffce56', '#594DAA', '#A2885D', '#1F1AE0', '#756E98', '#AEEFF0', '#E081EA', '#AB9053'
             ],
