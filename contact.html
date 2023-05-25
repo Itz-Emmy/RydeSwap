@@ -145,22 +145,23 @@
                                     </label>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <input type="email" name="name" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                        <input type="text" name="name" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                        <textarea id="message" name="name" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div data-netlify-recaptcha="true"></div>
                                         <button type="submit" id="submit" class="ready-btn contact-btn coin-btn">Submit</button>
                                         <div id="msgSubmit" class="h3 text-center hidden"></div> 
                                         <div class="clearfix"></div>
