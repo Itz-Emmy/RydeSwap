@@ -737,6 +737,14 @@
         left: 160px;
         
     }
+
+    #buy-ryd .col-xl-6.col-lg-6.col-md-12 {
+        margin-left: -120px;
+    }
+
+    #buy-ryd .about-images.wow.fadeInLeft img {
+        margin-left: 150px;
+    }
 }
 
 
