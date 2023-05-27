@@ -124,12 +124,12 @@ html {
     background-position: center;
   }
 
-.circle img {
-    width: 43%;
+  .circle img {
+    width: 30%;
     border-radius: 100%;
     position: relative;
-    top: -392px;
-    left: 172px;
+    top: -315px;
+    left: 190px;
     
 }
 

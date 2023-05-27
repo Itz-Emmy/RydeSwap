@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         labels: ["Private sale", "Presale", "Liquidity (Pancakeswap)", "RydeSwap Liquidity", "Ecosystem & Marketing", "Unlock", "Airdrop", "Partnerships", "Staking", "CEX listings"],
         datasets: [
           {
-            data: [4, 14, 7.2, 7.2, 10, 7.6, 5, 5, 20, 20],
+            data: [4.2, 13, 6.5, 6.5, 10, 7.8, 5, 5, 20, 22],
             backgroundColor: [
                 '#ff6384', '#36a2eb', '#ffce56', '#594DAA', '#A2885D', '#1F1AE0', '#756E98', '#AEEFF0', '#E081EA', '#AB9053'
             ],
