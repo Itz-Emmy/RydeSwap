@@ -729,6 +729,14 @@
         left: 25px;
         display: none;
     }
+    .circle img {
+        width: 30%;
+        border-radius: 100%;
+        position: relative;
+        top: -260px;
+        left: 160px;
+        
+    }
 }
 
 
