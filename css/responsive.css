@@ -1294,12 +1294,14 @@ blockquote::before {
         left: 15px;
     }
 
-    #audit .about-all {
-        left: -70px;
-        margin-left: 40px;
-        position: relative;
+    #audit .about-all { 
+        margin-left: -58px;
+        margin-right: 65px;
     }
 
+    .about-all::before {
+        left: 55px;
+    }
     .about-inner {
         position: relative;
         display: block;
@@ -1342,9 +1344,7 @@ blockquote::before {
         position: relative;
         left: 25px;
     }
-    p.seed-sale {
-        font-size: 0.8rem !important;
-    }
+   
     .bread-bg-img {
         width: 250px;
         position: relative;
@@ -1487,6 +1487,19 @@ blockquote::before {
         margin-left: -25px;
         margin-right: -10px;
     }
+
+    #audit .about-all {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #buy-ryd .well-service-text p {
+        font-size: 13px !important;
+        line-height: 28px;
+    }
+
+    .about-all::before {
+        left: -20px;
+    }
     .about-inner {
         left: 0;
     }
@@ -1543,6 +1556,7 @@ blockquote::before {
 
     #revenue .about-inner {
         width: 300px;
+        margin-left: -20px;
     }
 
     .bread-bg img {

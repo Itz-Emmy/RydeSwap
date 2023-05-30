@@ -109,6 +109,9 @@ html {
     width: 100%;
 }
 
+p.seed-sale {
+    word-wrap: break-word;
+}
 
 .support-text-list li:before {
     content: "";
