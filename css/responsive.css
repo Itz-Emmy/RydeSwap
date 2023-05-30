@@ -738,27 +738,17 @@
         
     }
 
-    #buy-ryd .col-xl-6.col-lg-6.col-md-12 {
-        margin-left: -120px;
-    }
-
-    #buy-ryd .about-images.wow.fadeInLeft img {
-        margin-left: 150px;
-    }
 }
 
 
 @media (max-width: 767px) {
     .circle img {
-        /* width: 45%; */
         border-radius: 100%;
         position: relative;
         top: -320px;
         left: 240px;
     }
-    /* .header-right {
-    display: block;
-    } */
+ 
     .header-right {
         left: 25px;
         display: none;
@@ -768,17 +758,8 @@
     
     }
 
-/* #buy-ryd-header .header-right, .mobile-menu {
-    position: relative;
-    top: -70px;
-} */
 
-/* .header-area.stick .header-right, .header-right {
-    position: relative;
-    margin-left: 120px;
-    right: 0;
-    top: 0;
-} */
+
     canvas#myChart {
         display: block;
         box-sizing: border-box;
