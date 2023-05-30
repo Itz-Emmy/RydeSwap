@@ -1390,7 +1390,8 @@ blockquote::before {
         width: 60%;
     }
     .about-all {
-        margin-left: -75px;
+        margin-left: -100px;
+        margin-right: 35px;
     }
 
     .about-inner {
@@ -1477,27 +1478,15 @@ blockquote::before {
         left: 0;
     }
 
-    /* .top-btn {
-        font-size: 0.6rem;
-        padding: 8px 11px;
-        text-align: center;
-        position: relative;
-        top: -7px;
-        left: 25px;
-    }
-    #buy-ryd-header .header-right, .mobile-menu {
-        position: relative;
-        top: -60px;
-    } */
    
     .about-content {
         margin: 0;
     }
 
     .about-all {
-        left: -25px;
+        margin-left: -25px;
+        margin-right: -10px;
     }
-
     .about-inner {
         left: 0;
     }
